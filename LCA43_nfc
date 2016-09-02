@@ -1,6 +1,6 @@
 prebuilt_dir=~/tetra-kernel-build-configs/
 DEFCONFIG=tetra_nose_defconfig
-O=/data/tetra/kernel.out
+O=~/android_kernel_sony_tetra/out
 INITRD=$prebuilt_dir/initrd.LCA43_nfc
 CPIO_LIST=$prebuilt_dir/LCA43.cpio
 page_size=2048

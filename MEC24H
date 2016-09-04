@@ -1,0 +1,8 @@
+prebuilt_dir=~/tetra-kernel-build-configs/
+DEFCONFIG=tetra_stock_defconfig
+O=~/mm_sony_tetra_3.14/out
+INITRD=$prebuilt_dir/initrd.MEC24H
+CPIO_LIST=$prebuilt_dir/MEC24H.cpio
+page_size=2048
+base_addr=0x85000000
+ramdisk_addr=0x86000000

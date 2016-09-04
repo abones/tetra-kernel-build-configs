@@ -1,5 +1,6 @@
 dir /data 771 1000 1000
 dir /dev 755 1000 1000
+dir /oem 755 1000 1000
 dir /proc 755 1000 1000
 dir /sbin 750 1000 1000
 dir /sys 755 1000 1000
@@ -10,18 +11,19 @@ file /file_contexts file_contexts 644 1000 1000
 file /fstab.tetra fstab.tetra 640 1000 1000
 file /fstab.swap.tetra fstab.swap.tetra 640 1000 1000
 file /init init 750 1000 1000
-file /init.common.debug.rc init.common.debug.rc 640 1000 1000
-file /init.common.rc init.common.rc 640 1000 1000
-file /init.common.usb.rc init.common.usb.rc 640 1000 1000
-file /init.debug.sonyextras.rc init.debug.sonyextras.rc 640 1000 1000
-file /init.environ.rc init.environ.rc 640 1000 1000
-file /init.rc init.rc 640 1000 1000
-file /init.tetra.debug.rc init.tetra.debug.rc 640 1000 1000
-file /init.tetra.rc init.tetra.rc 640 1000 1000
-file /init.tetra.usb.rc init.tetra.usb.rc 640 1000 1000
-file /init.trace.rc init.trace.rc 640 1000 1000
-file /init.usb.rc init.usb.rc 640 1000 1000
-file /init.zygote32.rc init.zygote32.rc 640 1000 1000
+file /init.common.debug.rc init.common.debug.rc 750 1000 1000
+file /init.common.rc init.common.rc 750 1000 1000
+file /init.common.usb.rc init.common.usb.rc 750 1000 1000
+file /init.debug.sonyextras.rc init.debug.sonyextras.rc 750 1000 1000
+file /init.environ.rc init.environ.rc 750 1000 1000
+file /init.rc init.rc 750 1000 1000
+file /init.tetra.debug.rc init.tetra.debug.rc 750 1000 1000
+file /init.tetra.rc init.tetra.rc 750 1000 1000
+file /init.tetra.usb.rc init.tetra.usb.rc 750 1000 1000
+file /init.trace.rc init.trace.rc 750 1000 1000
+file /init.usb.configfs.rc init.usb.configfs.rc 750 1000 1000
+file /init.usb.rc init.usb.rc 750 1000 1000
+file /init.zygote32.rc init.zygote32.rc 750 1000 1000
 file /property_contexts property_contexts 644 1000 1000
 file /seapp_contexts seapp_contexts 644 1000 1000
 file /selinux_version selinux_version 644 1000 1000
